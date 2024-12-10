@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الدحيح - الشخصيات التعليمية الشهيرة</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>الدحيح</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">عن الدحيح</a></li>
+                <li><a href="#journey">المشوار المهني</a></li>
+                <li><a href="#episodes">أشهر الحلقات</a></li>
+                <li><a href="#contact">اتصل بنا</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div class="content">
+            <h2>من هو الدحيح؟</h2>
+            <p>الدحيح هو لقب مستعار للمقدمة والمقدم المصري المعروف أحمد الغندور. عُرف من خلال قناته على يوتيوب "الدحيح" التي تحتوي على مجموعة من الفيديوهات التعليمية الممتعة والشيقة التي تشرح مواضيع علمية وثقافية بطريقة فكاهية وسهلة.</p>
+            <img src="https://via.placeholder.com/600x400" alt="صورة الدحيح">
+        </div>
+    </section>
+
+    <section id="journey">
+        <div class="content">
+            <h2>المشوار المهني للدحيح</h2>
+            <p>بدأ أحمد الغندور مشواره الإعلامي في عام 2013، حيث بدأ في تقديم فيديوهات على يوتيوب باستخدام أسلوبه الفريد في تبسيط المعلومات العلمية والثقافية. استطاع أن يجذب جمهوراً كبيراً من خلال تقديم مواضيع معقدة بطريقة ممتعة وسهلة الفهم.</p>
+            <p>عُرفت حلقات الدحيح بمحتوى متنوع مثل موضوعات علمية، تاريخية، ثقافية وفلسفية، إضافة إلى قدرته على التفاعل مع الجمهور بأسلوب فكاهي وذكي.</p>
+            <img src="https://via.placeholder.com/600x400" alt="صور أحمد الغندور">
+        </div>
+    </section>
+
+    <section id="episodes">
+        <div class="content">
+            <h2>أشهر حلقات الدحيح</h2>
+            <div class="episodes">
+                <div class="episode">
+                    <h3>حلقة عن الفضاء</h3>
+                    <p>في هذه الحلقة، تحدث الدحيح عن الفضاء وما يحتويه من أسرار علمية وفلكية.</p>
+                    <a href="#">شاهد الحلقة</a>
+                </div>
+                <div class="episode">
+                    <h3>حلقة عن الفيروسات</h3>
+                    <p>واحدة من أشهر الحلقات التي تناولت موضوع الفيروسات وأثرها على الإنسان والكوكب.</p>
+                    <a href="#">شاهد الحلقة</a>
+                </div>
+                <div class="episode">
+                    <h3>حلقة عن العقل البشري</h3>
+                    <p>حلقة ممتعة عن العقل البشري وكيفية عمله، مغطية جوانب علمية ونفسية.</p>
+                    <a href="#">شاهد الحلقة</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="content">
+            <h2>اتصل بنا</h2>
+            <form id="contactForm">
+                <label for="name">الاسم:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">البريد الإلكتروني:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">الرسالة:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">إرسال</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 موقع الدحيح. جميع الحقوق محفوظة.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
